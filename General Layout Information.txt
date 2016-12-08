@@ -1,0 +1,22 @@
+I basically divided the parts of the fuselage frame into
+folders for each part. Each folder will include three part files:
+
+-The "Part_Name_Mk# (Before Trimming)" file is the sketch
+of the part without connecting the different shapes into a single
+sketch. This allows for the relationships of the measurements to
+be kept and therefore we can resize the part if needed.
+
+-The "Part_Name_Mk#" file is the final sketch that will be used 
+for the laser cutting of the part. This sketch is what the final 
+part will look like and its the sketch that was used for the 
+assembly file and test fitting. Note, the relationships in between
+the measurements is not kept after the trimming so any resizing 
+should be done in the "Part_Name_Mk# (Before Trimming)" file. 
+
+- The "Part_Name_Mk# Assembly" file is the extruded version of 
+the sketch that is used for the test fitting in the final assembly
+of the fuselage frame. 
+
+I also included the drawings of each part in the folders and will
+include a .stl file of the extruded version of the part as well as 
+a .dfx file of each part that can be used for laser cutting.
